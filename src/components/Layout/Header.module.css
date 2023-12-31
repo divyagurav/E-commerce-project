@@ -1,0 +1,56 @@
+.header {
+  background-color: black;
+  padding: 5px;
+  border-bottom: 3px solid white;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  color: white;
+  padding: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.button {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  width: 80px;
+}
+
+.button p {
+  color: white;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  font-size: larger;
+}
+
+.button1 {
+  position: absolute;
+  right: 8%;
+  top: 2%;
+}
+
+.list a:hover,
+.list a:active,
+.list a.active {
+  color: white;
+  text-decoration: underline;
+}
+
+.button2 {
+  position: absolute;
+  right: 8%;
+  top: 2%;
+  background-color: black;
+}
+
+.list a:hover,
+.list a:active,
+.list a.active {
+  color: white;
+  text-decoration: underline;
+}
